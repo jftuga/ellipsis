@@ -23,7 +23,7 @@ func main() {
 	s := "abcdefghijklmnopqurstvwxyz"
 	for i := 0; i <= 26; i++ {
 		s := ellipsis.Shorten(s, i)
-		fmt.Printf("%2d %2d %s\n", i, s)
+		fmt.Printf("%2d %s\n", i, s)
 	}
 }
 ```
