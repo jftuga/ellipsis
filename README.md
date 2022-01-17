@@ -1,5 +1,5 @@
 # ellipsis
-Go module to insert an ellipses into the middle of a long string in order to shorten it.
+Go module to insert an ellipsis into the middle of a long string in order to shorten it.
 
 ## Install
 ```
