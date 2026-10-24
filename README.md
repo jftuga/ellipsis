@@ -1,6 +1,8 @@
 # ellipsis
 Go module to insert an ellipsis into the middle of a long string in order to shorten it.
 
+`Shorten(s, w)` limits the result to `w` Unicode code points (runes); nonpositive widths return an empty string, and widths 1–3 keep the last `w` runes when shortening.
+
 ## Install
 ```
 go get github.com/jftuga/ellipsis

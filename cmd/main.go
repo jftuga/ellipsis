@@ -4,7 +4,6 @@ main.go
 Dec-31-2020
 
 Insert an ellipses into the middle of a long string to shorten it
-
 */
 package main
 
